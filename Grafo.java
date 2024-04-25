@@ -21,6 +21,13 @@ public class Grafo<T>{
             System.out.println();
         }
     }
+
+    /*public int dijkstra(int origen, int destino){
+        int Vertex = adyacencia.size();
+        int[] distancia = new int[Vertex];
+        boolean[] visitado = new boolean[Vertex];
+
+    }*/
     
 
 }
