@@ -48,9 +48,11 @@ public class Principal {
 
         grafo.imprimirListaAdyacencia();
         int origen = 0,destino = 7; // Origen de A -> F
-        int pesoMinimo = grafo.dijkstra(0, 7);
+        //int pesoMinimo = grafo.dijkstra(0, 7);
 
-        System.out.println("El peso mínimo desde " + origen + " hasta " + destino + " es: "+pesoMinimo);
+        //System.out.println("El peso mínimo desde " + origen + " hasta " + destino + " es: "+pesoMinimo);
+        ArrayList<Integer> rutaMinima = grafo.dijkstra(origen, destino);
+        System.out.println("Ruta mínima desde " + origen + " hasta " + destino + ": " + rutaMinima);
         
     }
     
